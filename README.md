@@ -18,7 +18,7 @@
   - `./get_wordle.sh abc`         -- Prints words that exclude characters a, b and c in any position.
   - `./get_wordle.sh ? d`         -- Prints words with letter 'd' in the first (left-most) position.
   - `./get_wordle.sh abc d`       -- Prints #2, but only include words that start with letter 'd'.
-  - `./get_wordle.sh ? ^de ? ? a` -- Prints words with the letter 'a' in the 4th position, that do not start with the letters 'd' or 'e'.
+  - `./get_wordle.sh ? ^de ? ? a` -- Prints words with the letter 'a' in the 4th position, that do not start with the letters 'd' or 'e' (but includes them).
 
 ## Requirements
   - Basic Linux utilities: bash, grep, awk, cut, sed, tr, sort, uniq, head
