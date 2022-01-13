@@ -2,8 +2,9 @@
 **Simple Wordle solver bash script.**
 
 ## Parameters
-  - $1  = Ignored Characters (ie. will exclude words that contain the characters listed).
-  - $2* = Known Characters (ie. will require the character provided for each position). You can prepend ^ to exclude characters from any position.
+  - Syntax is: `./get_wordle <ignored_characters> <position1_known_characters> <etc..>`
+    - $1  = Ignored Characters (ie. will exclude words that contain the characters listed).
+    - $2* = Known Characters (ie. will require the character provided for each position). You can prepend ^ to exclude characters from any position.
 
 ## Notes
   - Script output is limited to top 5 matching words, sorted by the calculated score based on character popularity for each position.
