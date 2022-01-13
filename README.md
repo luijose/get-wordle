@@ -10,7 +10,7 @@
   - Script output is limited to top 5 matching words, sorted by the calculated score based on character popularity for each position.
   - If no params are provided, script will only output words with unique characters, in order to optimize towards more letter hits.
   - To use default values or ignore any param, you can use a "?" as the param value.
-  - First time running will calculate word scores, and will take longer based on words list size, word size, and available CPU.
+  - First time running will calculate word scores, and will take longer based on words list size, word size, and available CPU (usually only a few seconds).
   - Why did I write this as a bash script? Idk...
 
 ## Examples
